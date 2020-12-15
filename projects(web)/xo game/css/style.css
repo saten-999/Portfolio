@@ -1,0 +1,74 @@
+body{
+    background-color:antiquewhite;
+    height: auto;
+}
+#input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    margin-top: 10px;
+}
+#input input{
+    border-radius: 1.2vw;
+    /* padding: 0% 4%; */
+    font-size: 1vw;
+    margin-left: 7%;
+    border: 1px solid grey;
+    
+    
+}
+#input button{
+    border-radius: 2vw;
+    margin-top: 20px;
+    padding: 0.3% 3%;
+    font-size: 1.2vw;
+    background-image: linear-gradient(to top, darksalmon, white);
+    border: 1px solid grey;
+    
+}
+
+#game{
+    margin-top: 60px;
+    width: 330px;
+    height: 330px;
+    margin-left: 41%;
+
+}
+#new{
+    border-radius: 10px;
+    margin-left: 50%;
+    margin-top: 10px;
+    background-image: linear-gradient(to top, darksalmon, white);
+}
+#open{
+        display: none;
+}
+.btn{
+    width: 110px;
+    height: 110px;
+    border: 1px solid darksalmon;
+    background-image: linear-gradient(to top, darksalmon, white);
+    font-size: 32px;
+}
+#win{
+    margin-top: 20px;
+    width: 220px;
+    height: 80px;
+    margin-left: 45%;
+    background-color: darksalmon;
+   justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 28px;
+    font-weight: 400;
+    
+}
+#mss{
+   margin-left: 110px;
+    margin-top: 20px;
+    font-weight: bold;
+  font-size: 35px;
+    color: red;
+    display: none;
+}

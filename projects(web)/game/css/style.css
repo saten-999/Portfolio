@@ -1,0 +1,48 @@
+body{
+    background-color:antiquewhite;
+}
+#open{
+    display: flex;
+}
+.photo{
+     display:none; 
+    width: 140px;
+    height: 140px;
+    top: 0;
+}
+.p{
+    display:none;
+ }
+#game{
+    width: 560px;
+    height: 560px;
+    margin-left: 31%;
+}
+.btn{
+    position: relative;
+    width: 140px;
+    height: 140px;
+    border: 1px solid darksalmon;
+    background-image: linear-gradient(to top, darksalmon, white);
+    font-size: 32px;
+    margin: 0;
+    padding: 0;
+    
+}
+#step{
+    width: 120px;
+    height: 50px;
+    border: 2px solid darksalmon;
+    margin: 10px;
+}
+#count{
+    color:black;
+    font-size: 20px;
+    text-align: center;
+}
+p{
+    color:black;
+    font-size: 15px;
+    margin: 0;
+    text-align: center;
+}
